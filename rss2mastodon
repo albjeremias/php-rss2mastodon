@@ -1,0 +1,11 @@
+#!/usr/bin/php
+<?php
+
+require_once 'vendor/autoload.php';
+
+$container = DI\ContainerBuilder::buildDevContainer();
+$rssService2MastodonService = $container->get('Rss2Mastodon\Rss2MastodonService');
+
+$rssService2MastodonService->loadConfig('config.json');
+$rssService2MastodonService->sync();
+$rssService2MastodonService->saveConfig('config.json');

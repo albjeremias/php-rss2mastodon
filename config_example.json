@@ -1,0 +1,23 @@
+{
+    "accounts": {
+        "account1": {
+            "mastodon_url": "https://mastodon.instance",
+            "mastodon_token": "mytoken",
+            "feeds": [
+                "https://somewebsite/myrss.rss",
+                "https://somewebsite/myrss2.rss"
+            ],
+            "last_update": "2018-02-27 00:00"
+        },
+        "account2": {
+            "mastodon_url": "https://mastodon.instance",
+            "mastodon_token": "mytoken",
+            "feeds": [
+                "https://somewebsite/myrss.rss",
+                "https://somewebsite/myrss2.rss"
+            ],
+            "last_update": "2018-02-27 00:00"
+        },
+    },
+    "short_link_access_token": "XXXXX"
+}

@@ -1,0 +1,16 @@
+{
+    "require": {
+        "simplepie/simplepie": "^1.5",
+        "php-di/php-di": "^6.0",
+        "php-curl-class/php-curl-class": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rss2Mastodon\\": "src/"
+        }
+    },
+    "scripts":
+    {
+        "sync": "./rss2mastodon"
+    }
+}
